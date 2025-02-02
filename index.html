@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rai Fajardo</title>
+    <meta name="author" content="Rai Fajardo">
+    <!-- Favicon con ícono de mapa en formato SVG -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20576%20512'%3E%3Cpath%20fill='%23007bff'%20d='M560.2%2043.2c-6.2-3.7-14-4.2-20.5-1.3L372.2%20126c-12.1%206-27.3%206-39.4%200L164.8%2042c-6.5-3-14.3-2.7-20.5%201.3C137.3%2046.9%20128%2060.4%20128%2076.8V464c0%2016.4%209.3%2029.9%2024.3%2033.5%206.2%201.8%2012.7-.2%2016.7-5.1l168-84c12.1-6%2027.3-6%2039.4%200l168%2084c4%202%209.8%206.9%2016.7%205.1C478.7%20493.9%20488%20480.4%20488%20464V76.8c0-16.4-9.3-29.9-23.8-33.6z'%3E%3C/path%3E%3C/svg%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Estilos personalizados para centrar el contenido en un contenedor vertical -->
+    <style>
+        .vertical-container {
+            max-width: 800px; 
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+    </style>
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+    <script>
+        function switchLanguage(lang) {
+            document.getElementById("content-es").style.display = (lang === 'es') ? "block" : "none";
+            document.getElementById("content-en").style.display = (lang === 'en') ? "block" : "none";
+        }
+    </script>
+</head>
+<body>
+    <div class="container mt-5 vertical-container">
+        <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+            <a class="navbar-brand mx-0 mr-sm-auto" href="https://github.com/raifg18" title="Rai Fajardo">Rai Fajardo</a>
+            <div class="navbar-nav flex-row flex-wrap justify-content-center">                                             
+                <a class="nav-item nav-link" href="#" onclick="switchLanguage('es')" title="Sobre mí">Sobre mí</a>
+                <span class="nav-item navbar-text mx-1">/</span>
+                <a class="nav-item nav-link" href="#" onclick="switchLanguage('en')" title="About me">About me</a>
+                <span class="nav-item navbar-text mx-1">/</span>
+                <a class="nav-item nav-link" href="resume_spanish.pdf" title="CV (Español)">CV (Español)</a>
+                <span class="nav-item navbar-text mx-1">/</span>
+                <a class="nav-item nav-link" href="resume_english.pdf" title="CV (English)">CV (English)</a>
+            </div>
+        </nav>
+    </div>
+    <hr>
+    <div id="content" class="vertical-container">
+        <div class="container" id="content-es">
+            <h2>Sobre mí</h2>
+            <p>Soy Ingeniero en Recursos Naturales Renovables especializado en SIG, Teledetección y Programación aplicada al análisis geoespacial. He trabajado en monitoreo de deforestación, emisiones de carbono (REDD+, ARR) y conservación con comunidades nativas, utilizando herramientas como Google Earth Engine, Python, R, JavaScript, PostGIS, QGIS y ArcGIS. Mi experiencia incluye la automatización de procesos, procesamiento de imágenes satelitales y de drones, y el desarrollo de sistemas de alerta temprana. Si deseas saber más de mi experiencia, por favor, revisa mi CV.</p>
+            <h2>Áreas de Interés</h2>
+            <ul>
+                <li>SIG / Teledetección</li>
+                <li>Fotogrametría</li>
+                <li>Análisis de datos</li>
+                <li>Proyectos de carbono (ARR, REDD+)</li>
+                <li>Deep learning</li>
+                <li>Machine learning</li>
+            </ul>
+            <h2>Publicaciones</h2>
+            <ol>
+                <li><a href="https://repositorio.unas.edu.pe/items/58b7f432-1d07-483c-9eae-544ec52c1a00">Análisis de la deforestación de los años 2016 y 2022 en el distrito Castillo Grande, Huánuco, Perú</a></li>
+                <li><a href="https://www.sciencedirect.com/science/article/pii/S2352340924008163?via%3Dihub">CloudSEN12+: The largest dataset of expert-labeled pixels for cloud and cloud shadow detection in Sentinel-2</a></li>
+                <li><a href="https://revistas.unfv.edu.pe/rtb/article/view/1319">Cobertura boscosa al 2021 en la provincia Leoncio Prado, Perú.</a></li>
+            </ol>
+        </div>
+        <div class="container" id="content-en" style="display: none;">
+            <h2>About Me</h2>
+            <p>I am a Renewable Natural Resources Engineer specializing in GIS, Remote Sensing, and Programming applied to geospatial analysis. I have worked in deforestation monitoring, carbon emissions (REDD+, ARR), and conservation with Indigenous communities, utilizing tools such as Google Earth Engine, Python, R, JavaScript, PostGIS, QGIS, and ArcGIS. My experience includes process automation, satellite and drone image processing, and the development of early warning systems. If you want to know more about my experience, please see my cv.</p>
+            <h2>Research Interests</h2>
+            <ul>
+                <li>GIS / Remote Sensing</li>
+                <li>Photogrammetry</li>
+                <li>Data Analysis</li>
+                <li>Carbon Projects (ARR, REDD+)</li>
+                <li>Deep learning</li>
+                <li>Machine learning</li>
+            </ul>
+            <h2>Publications</h2>
+            <ol>
+                <li><a href="https://repositorio.unas.edu.pe/items/58b7f432-1d07-483c-9eae-544ec52c1a00">Deforestation analysis of 2016 and 2022 in Castillo Grande district, Huánuco, Peru</a></li>
+                <li><a href="https://www.sciencedirect.com/science/article/pii/S2352340924008163?via%3Dihub">CloudSEN12+: The largest dataset of expert-labeled pixels for cloud and cloud shadow detection in Sentinel-2</a></li>
+                <li><a href="https://revistas.unfv.edu.pe/rtb/article/view/1319">Forest coverage in 2021 in the province of Leoncio Prado, Peru.</a></li>
+            </ol>
+        </div>
+    </div>
+    <div id="footer" class="mb-5">
+        <hr>
+        <div class="container text-center">
+            <!-- Ícono de correo -->
+            <a href="mailto:rair_89@hotmail.com" class="fas fa-envelope fa-2x mx-3" title="E-mail"></a>
+            <!-- Ícono de GitHub -->
+            <a href="https://github.com/raifg18" class="fab fa-github fa-2x mx-3" title="GitHub"></a>
+        </div>
+        <div class="container text-center">
+            <a href="https://github.com/raifg18" title="By Rai Fajardo"><small>By Rai Fajardo</small></a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
